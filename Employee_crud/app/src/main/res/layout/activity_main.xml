@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Employee Name Input -->
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Employee Name"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/edittext_border"
+        android:inputType="text" />
+
+    <!-- Date of Birth Input -->
+
+    <!-- Department Dropdown -->
+    <TextView
+        android:id="@+id/etDob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:hint="Date of Birth"
+        android:inputType="date"
+        android:background="@drawable/edittext_border"
+        />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="Select Department"
+        android:inputType="date" />
+    <Spinner
+        android:id="@+id/spinnerDepartment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_border"
+
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Phone Number Input -->
+    <EditText
+        android:id="@+id/etPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/phone_number"
+        android:background="@drawable/edittext_border"
+
+        android:inputType="phone"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Address Input -->
+    <EditText
+        android:id="@+id/etAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_border"
+
+        android:hint="Address"
+        android:inputType="textMultiLine"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Add/Update Button -->
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Employee"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <!-- RecyclerView for Employee List -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>

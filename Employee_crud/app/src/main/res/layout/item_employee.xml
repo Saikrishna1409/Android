@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:elevation="4dp"
+    android:padding="12dp"
+    android:layout_margin="8dp"
+    android:background="@drawable/border">
+
+    <!-- Employee Name -->
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@android:color/black"/>
+
+    <!-- Employee DOB -->
+    <TextView
+        android:id="@+id/tvDob"
+        android:layout_marginBottom="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"/>
+
+    <!-- Department Name (Highlighted) -->
+    <TextView
+        android:id="@+id/tvDepartment"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+/>
+
+    <!-- Phone Number -->
+    <TextView
+        android:id="@+id/tvPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@android:color/darker_gray"/>
+
+    <!-- Address -->
+    <TextView
+        android:id="@+id/tvAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@android:color/darker_gray"/>
+
+    <!-- Edit & Delete Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:layout_marginTop="8dp">
+
+        <ImageView
+            android:id="@+id/btnEdit"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:textColor="@android:color/white"
+            android:src="@drawable/edit_pencil_line_01_svgrepo_com"
+            android:layout_marginEnd="8dp"/>
+
+        <ImageView
+            android:id="@+id/btnDelete"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/delete_svgrepo_com"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+</LinearLayout>

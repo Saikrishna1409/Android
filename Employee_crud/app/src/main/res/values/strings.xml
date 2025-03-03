@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Employee Details</string>
+    <string name="phone_number">Phone Number</string>
+<string-array name="department">
+    <item textcolor="black">HR</item>
+    <item textcolor="teal_700">IT</item>
+    <item textcolor="teal_800">Finance</item>
+    <item textcolor="teal_900">Marketing</item>
+    <item textcolor="teal_100">Sales</item>
+</string-array>
+</resources>

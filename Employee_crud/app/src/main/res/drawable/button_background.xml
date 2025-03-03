@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <!-- Set corner radius -->
+    <corners android:radius="45dp"/>  <!-- Adjust for more/less curve -->
+
+    <!-- Background color -->
+    <solid android:color="#DC9731"/>  <!-- Change color as needed -->
+
+    <!-- Button border (optional) -->
+    <stroke android:width="2dp" android:color="#3700B3"/>  <!-- Change color as needed -->
+
+    <!-- Padding inside the button (optional) -->
+    <padding android:left="10dp" android:right="10dp" android:top="5dp" android:bottom="5dp"/>
+</shape>
